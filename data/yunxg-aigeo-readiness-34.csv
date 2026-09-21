@@ -1,0 +1,35 @@
+﻿id,position,layer,layerZh,item,url
+R01,1,structure,结构,站点使用独立域名且全站 HTTPS,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r01
+R02,2,structure,结构,页面采用语义化 HTML（header / nav / main / article 等）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r02
+R03,3,structure,结构,已部署 Organization + WebSite JSON-LD,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r03
+R04,4,structure,结构,sitemap.xml 可公开访问且含核心 URL,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r04
+R05,5,structure,结构,robots.txt 已配置（含 AI 爬虫策略说明）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r05
+R06,6,structure,结构,提供 llms.txt 或等效机器可读发现文件,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r06
+R07,7,structure,结构,robots meta 允许完整摘要（max-snippet:-1）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r07
+R08,8,structure,结构,各页有唯一 canonical 与完整 title / description,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r08
+R09,9,content,内容,去掉品牌名后，首页仍能看出主营业务与服务对象,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r09
+R10,10,content,内容,服务/产品页写清交付范围与适用客户,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r10
+R11,11,content,内容,有独立 FAQ 页，问答在页面上可见,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r11
+R12,12,content,内容,FAQPage JSON-LD 与可见问答内容一致,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r12
+R13,13,content,内容,近 6 个月有智库/案例/公告等实质更新,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r13
+R14,14,content,内容,文章或案例有作者/团队署名与可追溯联系方式,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r14
+R15,15,content,内容,关键页面有可抽取的业务定义段落（非纯口号）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r15
+R16,16,content,内容,重要图片配有描述性 alt 文本,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r16
+R17,17,content,内容,核心智库文引言首段能在 60 字内独立回答标题问题（Answer-first）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r17
+R18,18,content,内容,长文含可验证统计数据并标注来源（约每 150–200 字一处）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r18
+R19,19,content,内容,文章含专家/作者可引用观点（blockquote + 署名，非空洞 AI 腔）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r19
+R20,20,content,内容,智库文有 inline FAQ（3–5 组 Q/A）且与 JSON-LD 或 acceptedAnswer 一致,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r20
+R21,21,consistency,一致性,官网电话与 footer、联系页完全一致,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r21
+R22,22,consistency,一致性,官网邮箱与合同/发票信息一致,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r22
+R23,23,consistency,一致性,地图商户地址/电话与官网一致,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r23
+R24,24,consistency,一致性,微信公众号/抖音简介与官网业务描述一致,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r24
+R25,25,consistency,一致性,Organization JSON-LD 与关于页文字一致,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r25
+R26,26,consistency,一致性,sameAs 链接有效且指向官方可控账号,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r26
+R27,27,consistency,一致性,价格/时效承诺在各渠道表述一致、无绝对化用语,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r27
+R28,28,sustain,持续,有明确内容更新计划（月刊/季刊或固定负责人）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r28
+R29,29,sustain,持续,已提交百度搜索资源平台或同类索引工具,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r29
+R30,30,sustain,持续,近 12 个月内用 Rich Results Test 等工具核对过 JSON-LD,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r30
+R31,31,sustain,持续,新增服务/案例后会同步更新 FAQ,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r31
+R32,32,sustain,持续,询盘/预约来源有记录，便于月度复盘,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r32
+R33,33,sustain,持续,社媒内容与官网预约/咨询入口联动,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r33
+R34,34,sustain,持续,每年至少做一次 AIGEO readiness 自检（本清单即可）,https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r34

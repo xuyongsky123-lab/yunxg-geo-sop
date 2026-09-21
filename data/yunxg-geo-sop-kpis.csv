@@ -1,0 +1,13 @@
+﻿id,name,nameEn,definition,frequency,target
+KPI01,AI 引用频次,AI Citation Count,标准问题集中 AI 引用品牌的绝对次数,每周,环比持续增长
+KPI02,AI 可见度率,AI Visibility Rate,含品牌的回答数 ÷ 总测试问题数 × 100%；须按六维与分模型分列,每周,≥30%（作业参考，非承诺）
+KPI03,首位率,First Position Rate (FPR),本品牌首位推荐次数 ÷ 品牌已被提及的回答数 × 100%,每周,复测高于 Phase 0 基线
+KPI04,回答准确率,Answer Accuracy,描述准确的问题数 ÷ 总测试数 × 100%,每月,≥95%（作业参考，非承诺）
+KPI05,AI 声音份额,Share of Voice,本品牌引用次数 ÷ 全部竞品引用总次数,每月,行业前 3（相对观察）
+KPI06,品牌提及率,Brand Mention Rate,全网新增品牌名提及量（含无链接）,每月,环比 ≥10%（作业参考，非承诺）
+KPI07,情感倾向,Sentiment Score,AI 引用中正面描述占比；须附正/中/负原话,每月,正面 ≥85%（作业参考，非承诺）
+KPI08,信源引用链接数,Citation Link Count,回答中附带本品牌域名 URL 的次数,每月,持续增长
+KPI09,AI 引荐流量,AI Referral Traffic,统计工具中来源为 AI 平台的访问量,每月,同比增长（可观察，非承诺）
+KPI10,引用持久率,Citation Persistence,同一信源连续 3 个月仍被引用的比例,季度,核心源 ≥70%（作业参考，非承诺）
+KPI11,品牌词搜索提升,Branded Search Lift,指数类工具中品牌词搜索量变化,每月,同比增长（可观察，非承诺）
+KPI12,AI 转化率,AI-Assisted Conversion,AI 引荐流量的实际转化率（询盘 / 预约 / 成交）,季度,建立基准后逐期对比

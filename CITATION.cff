@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Yunxg Eight-Phase GEO SOP"
+message: "If you use this standard, please cite it as below."
+type: dataset
+authors:
+  - family-names: Xu
+    given-names: Yong
+    affiliation: "YunXiangGeng Technology (yunxg.cn)"
+    alias: 徐勇
+identifiers:
+  - type: url
+    value: "https://yunxg.cn/pages/aigeo/geo-sop/index.html"
+  - type: url
+    value: "https://yunxg.cn/pages/aigeo/dataset/index.html"
+version: "2026.3"
+date-released: "2026-08-21"
+license: CC-BY-NC-ND-4.0
+url: "https://yunxg.cn/pages/aigeo/dataset/index.html"
+repository-code: "https://github.com/xuyongsky123-lab/yunxg-geo-sop"
+abstract: >-
+  Public GEO / AIGEO work standard: Phase 0–8, 27 checkable steps,
+  22 deliverables, 12 KPIs, and a 34-item readiness checklist.
+  Weights are implementation priority, not a ranking promise.
+keywords:
+  - GEO
+  - AIGEO
+  - generative engine optimization
+  - JSON-LD
+  - llms.txt

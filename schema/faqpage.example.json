@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://yunxg.cn/pages/entity/index.html#faq",
+  "inLanguage": "zh-CN",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "云享耕科技是做什么的？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "云享耕科技是面向中小企业的网站建设、AI功能定制与SEO·AIGEO优化服务品牌，官网yunxg.cn，源码全交付，全国远程交付。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "云享耕科技和全椒云享耕种植农场是什么关系？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "「云享耕科技」是全椒云享耕种植农场（个体工商户，统一社会信用代码92341124MAKBYEUT5M）的对外运营品牌；合同、发票、ICP以登记主体办理，同一经营者、同一团队。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+﻿id,name,phase,role,format
+01,GEO 基准测试报告,Phase 0,AI 可见度现状摸底；含分模型看板、六维可见度、首位率、缺口三分,PDF
+02,品牌 GEO 问题诊断清单,Phase 0,按优先级排序全部问题，指导执行顺序,Excel
+21,探针冻结面板,Phase 0,锁定六维题号与原文，保证 Phase 7/8 跨期可比,Excel
+22,引用来源反查表,Phase 0 / 6 / 7,统计 AI 实际引用的站点与 URL,Excel
+03,实体基准信息白皮书,Phase 1,固定唯一标准实体信息，全平台统一依据,Word / PDF
+04,历史错误信息治理台账,Phase 1,记录治理全流程，留存整改凭证,Excel
+05,NAP 校准模板 + 台账,Phase 1,全平台信息校准标准与进度记录,Excel
+06,Wikidata 实体档案,Phase 1–2,机器可读的官方身份,在线词条
+07,llms.txt + llms-full.txt,Phase 2,AI 爬虫专用索引,文本文件
+08,技术诊断与修复报告,Phase 2,robots、渲染、爬虫权限的修复记录,PDF
+09,Schema 标签实施包,Phase 3,各页面 JSON-LD 结构化数据,JSON-LD
+10,知识图谱 JSON-LD 文档,Phase 3,品牌实体关系图谱,JSON
+11,五层需求词库,Phase 4,需求挖掘成果，含 AI 对话式问句,Excel
+12,官方标准化知识库,Phase 4,全平台话术统一的核心依据,Word
+13,用户 FAQ 问答库,Phase 4,标准问答，用于 FAQ 页与创作,Excel
+14,内容模板库,Phase 4–6,全平台内容创作标准模板,Word
+15,月度内容选题排期表,Phase 4–6,内容创作与发布的执行计划,Excel
+16,信源渠道分级清单,Phase 6,三层信源分级管理,Excel
+17,竞品 GEO 差距分析报告,Phase 7,识别竞争差距；被抢曝光题须标注代表竞品,PDF
+18,内容优化 A/B 测试报告,Phase 7,验证最有效的内容优化动作,PDF
+19,月度 AI 可见度 KPI 报告,Phase 8,12 项指标月度追踪；须附情感原话与分模型表,PDF
+20,季度全链路效果报告,Phase 8,季度复盘与下一周期策略,PDF

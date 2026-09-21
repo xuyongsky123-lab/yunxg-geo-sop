@@ -1,0 +1,878 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "identifier": "YXG-GEO-SOP-v2026.3",
+  "name": "云耕 GEO 八阶模型与 AIGEO Readiness 34 项自检",
+  "alternateName": [
+    "Yunxg Eight-Phase GEO SOP",
+    "YXG-GEO-SOP",
+    "云耕 GEO 全链路 SOP"
+  ],
+  "version": "2026.3",
+  "datePublished": "2026-07-29",
+  "dateModified": "2026-09-21",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Organization",
+    "name": "云享耕科技",
+    "legalName": "全椒云享耕种植农场",
+    "url": "https://yunxg.cn",
+    "identifier": "92341124MAKBYEUT5M"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "徐勇",
+    "url": "https://yunxg.cn/pages/authors/xu-yong.html"
+  },
+  "url": "https://yunxg.cn/pages/aigeo/dataset/index.html",
+  "sameAs": [
+    "https://yunxg.cn/pages/aigeo/geo-sop/index.html",
+    "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html",
+    "https://github.com/xuyongsky123-lab/yunxg-geo-sop"
+  ],
+  "description": "云享耕科技公开的生成式引擎优化作业标准：Phase 0–8、27 个可验收步骤、22 项交付物、12 项 KPI，以及结构/内容/一致性/持续 34 项自检。权重是作业优先级，不是国家标准或平台官方排名。不承诺保证被 AI 引用。",
+  "keywords": [
+    "GEO",
+    "AIGEO",
+    "生成式引擎优化",
+    "云耕八阶",
+    "llms.txt",
+    "JSON-LD"
+  ],
+  "temporalCoverage": "2026",
+  "changelog": [
+    {
+      "version": "2026.3",
+      "date": "2026-08-21",
+      "notes": "测量口径补丁：六维探针与冻结面板；KPI 增至 12 项（新增首位率）；分模型看板与引用来源反查。权重不调整。"
+    },
+    {
+      "version": "2026.1",
+      "date": "2026-07-29",
+      "notes": "首次公开发布：Phase 0–8、27 步、交付物与 KPI；术语定义与参考文献。"
+    }
+  ],
+  "phases": [
+    {
+      "id": 0,
+      "name": "Phase 0 · GEO 诊断预检",
+      "nameEn": "Phase 0 · GEO diagnostic pretest",
+      "weight": null,
+      "weightNote": "前置必做，不计入权重",
+      "goal": "建立可复测基线：冻结问题面板、全网信息健康度。不做基线不算开工。"
+    },
+    {
+      "id": 1,
+      "name": "Phase 1 · 实体基础建设",
+      "nameEn": "Phase 1 · Entity foundation",
+      "weight": 35,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "NAP/主体统一、负向信息治理、实体唯一性锁定。"
+    },
+    {
+      "id": 2,
+      "name": "Phase 2 · 技术可见度建设",
+      "nameEn": "Phase 2 · Technical visibility",
+      "weight": 15,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "AI 爬虫可抓、llms.txt、速度与渲染可核验。"
+    },
+    {
+      "id": 3,
+      "name": "Phase 3 · 知识图谱与结构化数据",
+      "nameEn": "Phase 3 · Knowledge graph and structured data",
+      "weight": 20,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "Organization / FAQPage 等 Schema 与可见正文一致。"
+    },
+    {
+      "id": 4,
+      "name": "Phase 4 · 内容权威体系建设",
+      "nameEn": "Phase 4 · Content authority",
+      "weight": 15,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "答案先行、可核验数据、FAQ 与知识库口径统一。"
+    },
+    {
+      "id": 5,
+      "name": "Phase 5 · 官方权威阵地矩阵",
+      "nameEn": "Phase 5 · Official properties",
+      "weight": 8,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "企业号认证、百科、真实评价，与官网 NAP 对齐。"
+    },
+    {
+      "id": 6,
+      "name": "Phase 6 · 外部信源与链接权威建设",
+      "nameEn": "Phase 6 · External sources",
+      "weight": 4,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "三层信源分级、赚得媒体、品牌提及监控。"
+    },
+    {
+      "id": 7,
+      "name": "Phase 7 · AI 可见度冲刺与竞争诊断",
+      "nameEn": "Phase 7 · Visibility sprint",
+      "weight": 2,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "多模型复测、语义缺口填补、降权风险清零。"
+    },
+    {
+      "id": 8,
+      "name": "Phase 8 · KPI 体系建立与长效运维",
+      "nameEn": "Phase 8 · KPI and operations",
+      "weight": 1,
+      "weightNote": "作业优先级，非国家标准",
+      "goal": "12 项 KPI 监测、月度巡检、季度复盘。"
+    }
+  ],
+  "steps": [
+    {
+      "id": "STEP 0.1",
+      "stepId": "0.1",
+      "phase": 0,
+      "position": 1,
+      "name": "AI 大模型可见度基准测试",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-0-1"
+    },
+    {
+      "id": "STEP 0.2",
+      "stepId": "0.2",
+      "phase": 0,
+      "position": 2,
+      "name": "全网信息健康度诊断",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-0-2"
+    },
+    {
+      "id": "STEP 1.1",
+      "stepId": "1.1",
+      "phase": 1,
+      "position": 3,
+      "name": "全量资质归档与负向信息治理",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-1-1"
+    },
+    {
+      "id": "STEP 1.2",
+      "stepId": "1.2",
+      "phase": 1,
+      "position": 4,
+      "name": "主体确权归一 · 实体唯一性锁定",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-1-2"
+    },
+    {
+      "id": "STEP 1.3",
+      "stepId": "1.3",
+      "phase": 1,
+      "position": 5,
+      "name": "NAP / CAP 全平台统一校准",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-1-3"
+    },
+    {
+      "id": "STEP 1.4",
+      "stepId": "1.4",
+      "phase": 1,
+      "position": 6,
+      "name": "全平台 POI 校准与地理语义强化",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-1-4"
+    },
+    {
+      "id": "STEP 2.1",
+      "stepId": "2.1",
+      "phase": 2,
+      "position": 7,
+      "name": "AI 爬虫访问权限审计与修复",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-2-1"
+    },
+    {
+      "id": "STEP 2.2",
+      "stepId": "2.2",
+      "phase": 2,
+      "position": 8,
+      "name": "llms.txt 部署（AI 专属索引）",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-2-2"
+    },
+    {
+      "id": "STEP 2.3",
+      "stepId": "2.3",
+      "phase": 2,
+      "position": 9,
+      "name": "页面速度与 Core Web Vitals 优化",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-2-3"
+    },
+    {
+      "id": "STEP 3.1",
+      "stepId": "3.1",
+      "phase": 3,
+      "position": 10,
+      "name": "Organization + LocalBusiness Schema 全面部署",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-3-1"
+    },
+    {
+      "id": "STEP 3.2",
+      "stepId": "3.2",
+      "phase": 3,
+      "position": 11,
+      "name": "产品 / 服务 / 专家页 Schema 实施",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-3-2"
+    },
+    {
+      "id": "STEP 3.3",
+      "stepId": "3.3",
+      "phase": 3,
+      "position": 12,
+      "name": "知识图谱 JSON-LD 构建",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-3-3"
+    },
+    {
+      "id": "STEP 3.4",
+      "stepId": "3.4",
+      "phase": 3,
+      "position": 13,
+      "name": "官网固定页面结构化改造",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-3-4"
+    },
+    {
+      "id": "STEP 4.1",
+      "stepId": "4.1",
+      "phase": 4,
+      "position": 14,
+      "name": "五层语义词库与用户需求挖掘",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-4-1"
+    },
+    {
+      "id": "STEP 4.2",
+      "stepId": "4.2",
+      "phase": 4,
+      "position": 15,
+      "name": "官方标准化知识库构建",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-4-2"
+    },
+    {
+      "id": "STEP 4.3",
+      "stepId": "4.3",
+      "phase": 4,
+      "position": 16,
+      "name": "主题聚类生产与实体语义强化",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-4-3"
+    },
+    {
+      "id": "STEP 4.4",
+      "stepId": "4.4",
+      "phase": 4,
+      "position": 17,
+      "name": "发布节律与持续更新机制",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-4-4"
+    },
+    {
+      "id": "STEP 5.1",
+      "stepId": "5.1",
+      "phase": 5,
+      "position": 18,
+      "name": "全平台企业号入驻与认证",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-5-1"
+    },
+    {
+      "id": "STEP 5.2",
+      "stepId": "5.2",
+      "phase": 5,
+      "position": 19,
+      "name": "百科词条建立与维护",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-5-2"
+    },
+    {
+      "id": "STEP 5.3",
+      "stepId": "5.3",
+      "phase": 5,
+      "position": 20,
+      "name": "口碑管理与真实评价体系",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-5-3"
+    },
+    {
+      "id": "STEP 6.1",
+      "stepId": "6.1",
+      "phase": 6,
+      "position": 21,
+      "name": "三层信源渠道分级建设",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-6-1"
+    },
+    {
+      "id": "STEP 6.2",
+      "stepId": "6.2",
+      "phase": 6,
+      "position": 22,
+      "name": "赚得媒体覆盖建设",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-6-2"
+    },
+    {
+      "id": "STEP 6.3",
+      "stepId": "6.3",
+      "phase": 6,
+      "position": 23,
+      "name": "品牌提及监控体系",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-6-3"
+    },
+    {
+      "id": "STEP 7.1",
+      "stepId": "7.1",
+      "phase": 7,
+      "position": 24,
+      "name": "多模型复测与语义缺口填补",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-7-1"
+    },
+    {
+      "id": "STEP 7.2",
+      "stepId": "7.2",
+      "phase": 7,
+      "position": 25,
+      "name": "全量降权风险清零排查",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-7-2"
+    },
+    {
+      "id": "STEP 8.1",
+      "stepId": "8.1",
+      "phase": 8,
+      "position": 26,
+      "name": "KPI 监测体系配置（12 项核心指标）",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-8-1"
+    },
+    {
+      "id": "STEP 8.2",
+      "stepId": "8.2",
+      "phase": 8,
+      "position": 27,
+      "name": "月度巡检 + 季度复盘 + 动态更新",
+      "url": "https://yunxg.cn/pages/aigeo/geo-sop/index.html#step-8-2"
+    }
+  ],
+  "readiness34": [
+    {
+      "id": "R01",
+      "position": 1,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "站点使用独立域名且全站 HTTPS",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r01"
+    },
+    {
+      "id": "R02",
+      "position": 2,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "页面采用语义化 HTML（header / nav / main / article 等）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r02"
+    },
+    {
+      "id": "R03",
+      "position": 3,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "已部署 Organization + WebSite JSON-LD",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r03"
+    },
+    {
+      "id": "R04",
+      "position": 4,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "sitemap.xml 可公开访问且含核心 URL",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r04"
+    },
+    {
+      "id": "R05",
+      "position": 5,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "robots.txt 已配置（含 AI 爬虫策略说明）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r05"
+    },
+    {
+      "id": "R06",
+      "position": 6,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "提供 llms.txt 或等效机器可读发现文件",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r06"
+    },
+    {
+      "id": "R07",
+      "position": 7,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "robots meta 允许完整摘要（max-snippet:-1）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r07"
+    },
+    {
+      "id": "R08",
+      "position": 8,
+      "layer": "structure",
+      "layerZh": "结构",
+      "item": "各页有唯一 canonical 与完整 title / description",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r08"
+    },
+    {
+      "id": "R09",
+      "position": 9,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "去掉品牌名后，首页仍能看出主营业务与服务对象",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r09"
+    },
+    {
+      "id": "R10",
+      "position": 10,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "服务/产品页写清交付范围与适用客户",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r10"
+    },
+    {
+      "id": "R11",
+      "position": 11,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "有独立 FAQ 页，问答在页面上可见",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r11"
+    },
+    {
+      "id": "R12",
+      "position": 12,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "FAQPage JSON-LD 与可见问答内容一致",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r12"
+    },
+    {
+      "id": "R13",
+      "position": 13,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "近 6 个月有智库/案例/公告等实质更新",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r13"
+    },
+    {
+      "id": "R14",
+      "position": 14,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "文章或案例有作者/团队署名与可追溯联系方式",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r14"
+    },
+    {
+      "id": "R15",
+      "position": 15,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "关键页面有可抽取的业务定义段落（非纯口号）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r15"
+    },
+    {
+      "id": "R16",
+      "position": 16,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "重要图片配有描述性 alt 文本",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r16"
+    },
+    {
+      "id": "R17",
+      "position": 17,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "核心智库文引言首段能在 60 字内独立回答标题问题（Answer-first）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r17"
+    },
+    {
+      "id": "R18",
+      "position": 18,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "长文含可验证统计数据并标注来源（约每 150–200 字一处）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r18"
+    },
+    {
+      "id": "R19",
+      "position": 19,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "文章含专家/作者可引用观点（blockquote + 署名，非空洞 AI 腔）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r19"
+    },
+    {
+      "id": "R20",
+      "position": 20,
+      "layer": "content",
+      "layerZh": "内容",
+      "item": "智库文有 inline FAQ（3–5 组 Q/A）且与 JSON-LD 或 acceptedAnswer 一致",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r20"
+    },
+    {
+      "id": "R21",
+      "position": 21,
+      "layer": "consistency",
+      "layerZh": "一致性",
+      "item": "官网电话与 footer、联系页完全一致",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r21"
+    },
+    {
+      "id": "R22",
+      "position": 22,
+      "layer": "consistency",
+      "layerZh": "一致性",
+      "item": "官网邮箱与合同/发票信息一致",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r22"
+    },
+    {
+      "id": "R23",
+      "position": 23,
+      "layer": "consistency",
+      "layerZh": "一致性",
+      "item": "地图商户地址/电话与官网一致",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r23"
+    },
+    {
+      "id": "R24",
+      "position": 24,
+      "layer": "consistency",
+      "layerZh": "一致性",
+      "item": "微信公众号/抖音简介与官网业务描述一致",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r24"
+    },
+    {
+      "id": "R25",
+      "position": 25,
+      "layer": "consistency",
+      "layerZh": "一致性",
+      "item": "Organization JSON-LD 与关于页文字一致",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r25"
+    },
+    {
+      "id": "R26",
+      "position": 26,
+      "layer": "consistency",
+      "layerZh": "一致性",
+      "item": "sameAs 链接有效且指向官方可控账号",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r26"
+    },
+    {
+      "id": "R27",
+      "position": 27,
+      "layer": "consistency",
+      "layerZh": "一致性",
+      "item": "价格/时效承诺在各渠道表述一致、无绝对化用语",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r27"
+    },
+    {
+      "id": "R28",
+      "position": 28,
+      "layer": "sustain",
+      "layerZh": "持续",
+      "item": "有明确内容更新计划（月刊/季刊或固定负责人）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r28"
+    },
+    {
+      "id": "R29",
+      "position": 29,
+      "layer": "sustain",
+      "layerZh": "持续",
+      "item": "已提交百度搜索资源平台或同类索引工具",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r29"
+    },
+    {
+      "id": "R30",
+      "position": 30,
+      "layer": "sustain",
+      "layerZh": "持续",
+      "item": "近 12 个月内用 Rich Results Test 等工具核对过 JSON-LD",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r30"
+    },
+    {
+      "id": "R31",
+      "position": 31,
+      "layer": "sustain",
+      "layerZh": "持续",
+      "item": "新增服务/案例后会同步更新 FAQ",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r31"
+    },
+    {
+      "id": "R32",
+      "position": 32,
+      "layer": "sustain",
+      "layerZh": "持续",
+      "item": "询盘/预约来源有记录，便于月度复盘",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r32"
+    },
+    {
+      "id": "R33",
+      "position": 33,
+      "layer": "sustain",
+      "layerZh": "持续",
+      "item": "社媒内容与官网预约/咨询入口联动",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r33"
+    },
+    {
+      "id": "R34",
+      "position": 34,
+      "layer": "sustain",
+      "layerZh": "持续",
+      "item": "每年至少做一次 AIGEO readiness 自检（本清单即可）",
+      "url": "https://yunxg.cn/pages/aigeo/readiness-checklist/index.html#r34"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "KPI01",
+      "name": "AI 引用频次",
+      "nameEn": "AI Citation Count",
+      "definition": "标准问题集中 AI 引用品牌的绝对次数",
+      "frequency": "每周",
+      "target": "环比持续增长"
+    },
+    {
+      "id": "KPI02",
+      "name": "AI 可见度率",
+      "nameEn": "AI Visibility Rate",
+      "definition": "含品牌的回答数 ÷ 总测试问题数 × 100%；须按六维与分模型分列",
+      "frequency": "每周",
+      "target": "≥30%（作业参考，非承诺）"
+    },
+    {
+      "id": "KPI03",
+      "name": "首位率",
+      "nameEn": "First Position Rate (FPR)",
+      "definition": "本品牌首位推荐次数 ÷ 品牌已被提及的回答数 × 100%",
+      "frequency": "每周",
+      "target": "复测高于 Phase 0 基线"
+    },
+    {
+      "id": "KPI04",
+      "name": "回答准确率",
+      "nameEn": "Answer Accuracy",
+      "definition": "描述准确的问题数 ÷ 总测试数 × 100%",
+      "frequency": "每月",
+      "target": "≥95%（作业参考，非承诺）"
+    },
+    {
+      "id": "KPI05",
+      "name": "AI 声音份额",
+      "nameEn": "Share of Voice",
+      "definition": "本品牌引用次数 ÷ 全部竞品引用总次数",
+      "frequency": "每月",
+      "target": "行业前 3（相对观察）"
+    },
+    {
+      "id": "KPI06",
+      "name": "品牌提及率",
+      "nameEn": "Brand Mention Rate",
+      "definition": "全网新增品牌名提及量（含无链接）",
+      "frequency": "每月",
+      "target": "环比 ≥10%（作业参考，非承诺）"
+    },
+    {
+      "id": "KPI07",
+      "name": "情感倾向",
+      "nameEn": "Sentiment Score",
+      "definition": "AI 引用中正面描述占比；须附正/中/负原话",
+      "frequency": "每月",
+      "target": "正面 ≥85%（作业参考，非承诺）"
+    },
+    {
+      "id": "KPI08",
+      "name": "信源引用链接数",
+      "nameEn": "Citation Link Count",
+      "definition": "回答中附带本品牌域名 URL 的次数",
+      "frequency": "每月",
+      "target": "持续增长"
+    },
+    {
+      "id": "KPI09",
+      "name": "AI 引荐流量",
+      "nameEn": "AI Referral Traffic",
+      "definition": "统计工具中来源为 AI 平台的访问量",
+      "frequency": "每月",
+      "target": "同比增长（可观察，非承诺）"
+    },
+    {
+      "id": "KPI10",
+      "name": "引用持久率",
+      "nameEn": "Citation Persistence",
+      "definition": "同一信源连续 3 个月仍被引用的比例",
+      "frequency": "季度",
+      "target": "核心源 ≥70%（作业参考，非承诺）"
+    },
+    {
+      "id": "KPI11",
+      "name": "品牌词搜索提升",
+      "nameEn": "Branded Search Lift",
+      "definition": "指数类工具中品牌词搜索量变化",
+      "frequency": "每月",
+      "target": "同比增长（可观察，非承诺）"
+    },
+    {
+      "id": "KPI12",
+      "name": "AI 转化率",
+      "nameEn": "AI-Assisted Conversion",
+      "definition": "AI 引荐流量的实际转化率（询盘 / 预约 / 成交）",
+      "frequency": "季度",
+      "target": "建立基准后逐期对比"
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "01",
+      "name": "GEO 基准测试报告",
+      "phase": "Phase 0",
+      "role": "AI 可见度现状摸底；含分模型看板、六维可见度、首位率、缺口三分",
+      "format": "PDF"
+    },
+    {
+      "id": "02",
+      "name": "品牌 GEO 问题诊断清单",
+      "phase": "Phase 0",
+      "role": "按优先级排序全部问题，指导执行顺序",
+      "format": "Excel"
+    },
+    {
+      "id": "21",
+      "name": "探针冻结面板",
+      "phase": "Phase 0",
+      "role": "锁定六维题号与原文，保证 Phase 7/8 跨期可比",
+      "format": "Excel"
+    },
+    {
+      "id": "22",
+      "name": "引用来源反查表",
+      "phase": "Phase 0 / 6 / 7",
+      "role": "统计 AI 实际引用的站点与 URL",
+      "format": "Excel"
+    },
+    {
+      "id": "03",
+      "name": "实体基准信息白皮书",
+      "phase": "Phase 1",
+      "role": "固定唯一标准实体信息，全平台统一依据",
+      "format": "Word / PDF"
+    },
+    {
+      "id": "04",
+      "name": "历史错误信息治理台账",
+      "phase": "Phase 1",
+      "role": "记录治理全流程，留存整改凭证",
+      "format": "Excel"
+    },
+    {
+      "id": "05",
+      "name": "NAP 校准模板 + 台账",
+      "phase": "Phase 1",
+      "role": "全平台信息校准标准与进度记录",
+      "format": "Excel"
+    },
+    {
+      "id": "06",
+      "name": "Wikidata 实体档案",
+      "phase": "Phase 1–2",
+      "role": "机器可读的官方身份",
+      "format": "在线词条"
+    },
+    {
+      "id": "07",
+      "name": "llms.txt + llms-full.txt",
+      "phase": "Phase 2",
+      "role": "AI 爬虫专用索引",
+      "format": "文本文件"
+    },
+    {
+      "id": "08",
+      "name": "技术诊断与修复报告",
+      "phase": "Phase 2",
+      "role": "robots、渲染、爬虫权限的修复记录",
+      "format": "PDF"
+    },
+    {
+      "id": "09",
+      "name": "Schema 标签实施包",
+      "phase": "Phase 3",
+      "role": "各页面 JSON-LD 结构化数据",
+      "format": "JSON-LD"
+    },
+    {
+      "id": "10",
+      "name": "知识图谱 JSON-LD 文档",
+      "phase": "Phase 3",
+      "role": "品牌实体关系图谱",
+      "format": "JSON"
+    },
+    {
+      "id": "11",
+      "name": "五层需求词库",
+      "phase": "Phase 4",
+      "role": "需求挖掘成果，含 AI 对话式问句",
+      "format": "Excel"
+    },
+    {
+      "id": "12",
+      "name": "官方标准化知识库",
+      "phase": "Phase 4",
+      "role": "全平台话术统一的核心依据",
+      "format": "Word"
+    },
+    {
+      "id": "13",
+      "name": "用户 FAQ 问答库",
+      "phase": "Phase 4",
+      "role": "标准问答，用于 FAQ 页与创作",
+      "format": "Excel"
+    },
+    {
+      "id": "14",
+      "name": "内容模板库",
+      "phase": "Phase 4–6",
+      "role": "全平台内容创作标准模板",
+      "format": "Word"
+    },
+    {
+      "id": "15",
+      "name": "月度内容选题排期表",
+      "phase": "Phase 4–6",
+      "role": "内容创作与发布的执行计划",
+      "format": "Excel"
+    },
+    {
+      "id": "16",
+      "name": "信源渠道分级清单",
+      "phase": "Phase 6",
+      "role": "三层信源分级管理",
+      "format": "Excel"
+    },
+    {
+      "id": "17",
+      "name": "竞品 GEO 差距分析报告",
+      "phase": "Phase 7",
+      "role": "识别竞争差距；被抢曝光题须标注代表竞品",
+      "format": "PDF"
+    },
+    {
+      "id": "18",
+      "name": "内容优化 A/B 测试报告",
+      "phase": "Phase 7",
+      "role": "验证最有效的内容优化动作",
+      "format": "PDF"
+    },
+    {
+      "id": "19",
+      "name": "月度 AI 可见度 KPI 报告",
+      "phase": "Phase 8",
+      "role": "12 项指标月度追踪；须附情感原话与分模型表",
+      "format": "PDF"
+    },
+    {
+      "id": "20",
+      "name": "季度全链路效果报告",
+      "phase": "Phase 8",
+      "role": "季度复盘与下一周期策略",
+      "format": "PDF"
+    }
+  ],
+  "citation": "徐勇. 云耕 GEO 全链路优化通用 SOP (v2026.3). 云享耕科技. https://yunxg.cn/pages/aigeo/geo-sop/index.html",
+  "disclaimer": "分数与权重只说明缺哪一层、先做什么。效果因行业、内容与各平台规则而异，不得写成保证排名或保证被 AI 推荐。"
+}

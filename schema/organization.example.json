@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://yunxg.cn/#organization",
+  "name": "云享耕科技",
+  "alternateName": ["YunXiangGeng Technology", "Yunxg", "yunxg.cn"],
+  "legalName": "全椒云享耕种植农场",
+  "taxID": "92341124MAKBYEUT5M",
+  "url": "https://yunxg.cn",
+  "email": "yunxgtech@163.com",
+  "telephone": "+8616628412247",
+  "sameAs": [
+    "https://yunxg.cn/pages/entity/index.html",
+    "https://yunxg.cn/pages/entity/en/index.html",
+    "https://www.wikidata.org/wiki/Q140358152",
+    "https://github.com/xuyongsky123-lab/yunxg-geo-sop"
+  ]
+}

@@ -1,0 +1,10 @@
+﻿id,name,nameEn,weight,weightNote,goal
+0,Phase 0 · GEO 诊断预检,Phase 0 · GEO diagnostic pretest,,前置必做，不计入权重,建立可复测基线：冻结问题面板、全网信息健康度。不做基线不算开工。
+1,Phase 1 · 实体基础建设,Phase 1 · Entity foundation,35,作业优先级，非国家标准,NAP/主体统一、负向信息治理、实体唯一性锁定。
+2,Phase 2 · 技术可见度建设,Phase 2 · Technical visibility,15,作业优先级，非国家标准,AI 爬虫可抓、llms.txt、速度与渲染可核验。
+3,Phase 3 · 知识图谱与结构化数据,Phase 3 · Knowledge graph and structured data,20,作业优先级，非国家标准,Organization / FAQPage 等 Schema 与可见正文一致。
+4,Phase 4 · 内容权威体系建设,Phase 4 · Content authority,15,作业优先级，非国家标准,答案先行、可核验数据、FAQ 与知识库口径统一。
+5,Phase 5 · 官方权威阵地矩阵,Phase 5 · Official properties,8,作业优先级，非国家标准,企业号认证、百科、真实评价，与官网 NAP 对齐。
+6,Phase 6 · 外部信源与链接权威建设,Phase 6 · External sources,4,作业优先级，非国家标准,三层信源分级、赚得媒体、品牌提及监控。
+7,Phase 7 · AI 可见度冲刺与竞争诊断,Phase 7 · Visibility sprint,2,作业优先级，非国家标准,多模型复测、语义缺口填补、降权风险清零。
+8,Phase 8 · KPI 体系建立与长效运维,Phase 8 · KPI and operations,1,作业优先级，非国家标准,12 项 KPI 监测、月度巡检、季度复盘。

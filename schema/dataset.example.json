@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Yunxg Eight-Phase GEO SOP and AIGEO Readiness 34",
+  "version": "2026.3",
+  "identifier": "YXG-GEO-SOP-v2026.3",
+  "url": "https://yunxg.cn/pages/aigeo/dataset/index.html",
+  "sameAs": [
+    "https://yunxg.cn/pages/aigeo/geo-sop/index.html",
+    "https://github.com/xuyongsky123-lab/yunxg-geo-sop"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "云享耕科技",
+    "url": "https://yunxg.cn"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://yunxg.cn/datasets/yunxg-geo-sop-v2026.3.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://yunxg.cn/datasets/yunxg-geo-sop-steps.csv"
+    }
+  ]
+}
